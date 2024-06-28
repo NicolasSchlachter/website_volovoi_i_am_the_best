@@ -41,7 +41,7 @@ body {
     height: 150px;
     border-radius: 50%;
     overflow: hidden; 
-    margin: 0 auto 20px; 
+    margin: 0 auto 6px; 
 }
 
 .profile-picture img {

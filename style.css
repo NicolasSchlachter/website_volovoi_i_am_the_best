@@ -92,6 +92,7 @@ body {
     cursor: pointer;
     border-radius: 50%; 
     transition: background-color 0.3s, transform 0.3s;
+    margin: 0 1px; 
 }
 
 .button:hover {
@@ -127,8 +128,13 @@ body {
         font-size: 1em;
     }
 
+    .button-container {
+        flex-wrap: wrap; 
+    }
+
     .button {
         padding: 10px;
         font-size: 18px;
+        margin: 10px; 
     }
 }
